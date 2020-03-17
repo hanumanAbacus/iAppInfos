@@ -175,7 +175,7 @@
 - (NSArray *)filteredKeys
 {
     if (nil == _filteredKeys) {
-            return @[AppVersionManagerKeyTargetedVersion,AppVersionManagerKeyYouriOSVersion,AppVersionManagerKeyYourDeviceModel,AppVersionManagerKeyCompilationSDK,AppVersionManagerKeyCompilationArchitecture, AppVersionManagerKeyCFBundleVersion, AppVersionManagerKeyCFBundleShortVersionString, AppVersionManagerKeyFreeDiskSpace,AppVersionManagerKeyFreeMemory,AppVersionManagerKeyMemoryUseByApp, AppVersionManagerKeyBatteryLevel,AppVersionManagerKeyMobileProvisionning, AppVersionManagerKeyPushToken,AppVersionManagerKeyWSConfiguration];
+            return @[AppVersionManagerKeyTargetedVersion,AppVersionManagerKeyYouriOSVersion,AppVersionManagerKeyYourDeviceModel,AppVersionManagerKeyCompilationSDK,AppVersionManagerKeyCompilationArchitecture, AppVersionManagerKeyCFBundleVersion, AppVersionManagerKeyCFBundleShortVersionString, AppVersionManagerKeyFreeDiskSpace,AppVersionManagerKeyFreeMemory,AppVersionManagerKeyMemoryUseByApp, AppVersionManagerKeyBatteryLevel, AppVersionManagerKeyPushToken,AppVersionManagerKeyWSConfiguration];
     }
     return _filteredKeys;
 }
